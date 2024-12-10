@@ -1,22 +1,96 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
 body {
     font-family: Arial, sans-serif;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav a {
-    text-decoration: none;
+    line-height: 1.6;
+    background-color: #f4f4f4;
     color: #333;
 }
 
+/* Header and Navigation */
+header {
+    background-color: #333;
+    padding: 1rem;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+/* Main content */
+main {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 h1 {
-    color: #2c3e50;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Image styles */
+.main-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.info-section {
+    margin: 40px 0;
+}
+
+.info-section img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
 }
